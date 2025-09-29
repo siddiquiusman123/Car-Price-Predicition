@@ -1,2 +1,34 @@
-# Car-Price-Predicition
-Car Price Prediction using Machine Learning (Streamlit Deployment)
+# 🚗 Car Price Prediction
+
+This project predicts the **resale price of cars** using Machine Learning models.  
+It is deployed as an interactive **Streamlit web application**, where users can input car details and get instant predictions.  
+
+---
+
+## 📌 Features
+- Preprocessed dataset for improved accuracy  
+- Multiple ML models tested (Linear Regression, Random Forest, KNN)  
+- Interactive **Streamlit UI** for user input & predictions
+
+---
+
+## 🛠️ Tech Stack
+- Python  
+- Pandas, NumPy  
+- scikit-learn  
+- Streamlit  
+- Matplotlib / Seaborn  
+- Joblib 
+
+🌐 Live Demo
+🔗 Click here to try the app
+
+📊 Results
+Achieved high accuracy with Random Forest.
+Predictions vary based on key features such as car age, km_driven, fuel type, and brand.
+Deployed on Streamlit Cloud for easy access.
+
+✨ Author
+👤 Siddiqui Usman Ahmed Siraj Ahmed
+📧 siddiquiusman915256@gmail.com
+🔗 https://www.linkedin.com/in/usman-siddiqui-948006347
