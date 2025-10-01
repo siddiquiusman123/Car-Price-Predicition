@@ -7,8 +7,7 @@ st.title("🚗 Car Price Prediction App")
 
 # Load The Dataset , Model and Scalar
 
-dataset = pd.read_csv(r"C:\Users\siddi\Desktop\Datasets\cardekho_dataset.csv")
-
+dataset = pd.read_csv('cardekho_dataset.csv')
 model = joblib.load('car_price_model.pkl')
 encoder = joblib.load('car_price_prd_encoder.pkl')
 scaler = joblib.load('car_price_prd_scaler.pkl')
@@ -73,7 +72,7 @@ final_input[num_col] = scaler.transform(final_input[num_col])
 
 if st.button("Predict price"):
     prediction = model.predict(final_input)
-    st.success(f"Estimated price {prediction[0]:.3f}₹")
+    st.success(f"Estimated Price {prediction[0]:.3f}₹")
 
 
 
