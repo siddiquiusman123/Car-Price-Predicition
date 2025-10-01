@@ -32,6 +32,9 @@ Predictions vary based on key features such as car age, km_driven, fuel type, an
 Deployed on Streamlit Cloud for easy access.
 
 ✨ Author
+
 👤 Siddiqui Usman Ahmed Siraj Ahmed
+
 📧 siddiquiusman915256@gmail.com
+
 🔗 https://www.linkedin.com/in/usman-siddiqui-948006347
