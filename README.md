@@ -22,10 +22,13 @@ It is deployed as an interactive **Streamlit web application**, where users can 
 
 🌐 Live Demo
 🔗 Click here to try the app
+https://car-price-predicition-izctx7petto6nf89ctxdxd.streamlit.app/
 
 📊 Results
 Achieved high accuracy with XGBoost.
+
 Predictions vary based on key features such as car age, km_driven, fuel type, and brand.
+
 Deployed on Streamlit Cloud for easy access.
 
 ✨ Author
