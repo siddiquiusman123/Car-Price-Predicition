@@ -7,7 +7,7 @@ It is deployed as an interactive **Streamlit web application**, where users can 
 
 ## 📌 Features
 - Preprocessed dataset for improved accuracy  
-- Multiple ML models tested (Linear Regression, Random Forest, KNN)  
+- Multiple ML models tested (Linear Regression, Random Forest, XGBoost)  
 - Interactive **Streamlit UI** for user input & predictions
 
 ---
@@ -24,7 +24,7 @@ It is deployed as an interactive **Streamlit web application**, where users can 
 🔗 Click here to try the app
 
 📊 Results
-Achieved high accuracy with Random Forest.
+Achieved high accuracy with XGBoost.
 Predictions vary based on key features such as car age, km_driven, fuel type, and brand.
 Deployed on Streamlit Cloud for easy access.
 
