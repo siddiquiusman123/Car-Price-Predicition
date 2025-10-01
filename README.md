@@ -28,12 +28,10 @@ It is deployed as an interactive **Streamlit web application**, where users can 
 
 ---
 
-📊 Results
-Achieved high accuracy with XGBoost.
-
-Predictions vary based on key features such as car age, km_driven, fuel type, and brand.
-
-Deployed on Streamlit Cloud for easy access.
+## 📊 Results
+- Achieved good accuracy with **Random Forest** & **XGBoost**  
+- Predictions vary based on key features such as car age, km_driven, fuel type, and brand.
+- Deployed on Streamlit Cloud for easy access.
 
 ## ✨ Author
 👤 **Siddiqui Usman Ahmed Siraj Ahmed**  
