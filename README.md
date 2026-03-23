@@ -24,7 +24,7 @@ It is deployed as an interactive **Streamlit web application**, where users can 
 
 ## 🌐 Live Demo
 🔗 Click here to try the app  
-👉 [Car Price Prediction App](https://car-price-predicition-izctx7petto6nf89ctxdxd.streamlit.app/)
+👉 [Car Price Prediction App](https://car-price-predicition-g22rxkimcahp9enqzqglpd.streamlit.app/)
 
 ---
 
