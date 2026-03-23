@@ -6,15 +6,15 @@ st.set_page_config(page_title="Car Price Predictor", page_icon="🚗")
 
 st.title("🚗 Car Price Prediction App")
 
-# LOAD DATA (CACHED)
+# Load Cleaned Data
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('cardekho_dataset.csv')
+    return pd.read_csv('Cleaned_data.csv')
 
 dataset = load_data()
 
-# LOAD MODEL (CACHED)
+# Laod Pipeline
 
 @st.cache_resource
 def load_model():
@@ -22,7 +22,7 @@ def load_model():
 
 model = load_model()
 
-# USER INPUT
+# User Input
 
 st.subheader("Enter Car Details")
 
@@ -39,7 +39,7 @@ engine = st.number_input("Engine (CC)", min_value=300, max_value=10000, step=10)
 max_power = st.number_input("Max Power (bhp)", min_value=10, max_value=500)
 seats = st.number_input("Seats", min_value=1, max_value=10)
 
-# CREATE INPUT DATAFRAME
+# Create Imput DataFrame
 
 input_df = pd.DataFrame([{
     'brand': brand,
@@ -55,7 +55,7 @@ input_df = pd.DataFrame([{
     'seats': seats
 }])
 
-# PREDICTION
+# Prediction
 
 if st.button("Predict Price"):
 
