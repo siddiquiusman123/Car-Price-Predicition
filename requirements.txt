@@ -1,6 +1,6 @@
+python==3.11.*
 streamlit==1.55.0
 pandas
 numpy
 scikit-learn==1.6.1
 joblib
-category_encoders
