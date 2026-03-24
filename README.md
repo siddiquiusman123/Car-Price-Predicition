@@ -107,9 +107,8 @@ flowchart LR
 ```bash
 ├── app.py                      # Streamlit UI
 ├── car_price_pipeline.joblib   # Trained ML pipeline
-├── cardekho.csv                # Dataset
+├── cardekho_dataset.csv        # Dataset
 ├── requirements.txt            # Dependencies
-├── runtime.txt                 # Python version (optional)
 └── README.md
 ```
 
