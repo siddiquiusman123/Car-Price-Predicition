@@ -37,10 +37,10 @@ It is designed to simulate a real-world ML system, where users can input car det
 flowchart LR
     A[Raw Data] --> B[Data Cleaning]
     B --> C[Feature Engineering]
-    C --> D[Encoding + Scaling]
+    C --> D[Encoding and Scaling]
     D --> E[Model Training]
     E --> F[Pipeline Creation]
-    F --> G[Model Serialization (Joblib)]
+    F --> G[Model Serialization]
     G --> H[Streamlit Deployment]
 
 ## 🛠️ Tech Stack
