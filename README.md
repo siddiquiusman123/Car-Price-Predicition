@@ -42,6 +42,7 @@ flowchart LR
     E --> F[Pipeline Creation]
     F --> G[Model Serialization]
     G --> H[Streamlit Deployment]
+```
 
 ## 🛠️ Tech Stack
 
