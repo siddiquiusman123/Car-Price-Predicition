@@ -42,3 +42,89 @@ flowchart LR
     E --> F[Pipeline Creation]
     F --> G[Model Serialization (Joblib)]
     G --> H[Streamlit Deployment]
+
+## 🛠️ Tech Stack
+
+- Python  
+- Pandas, NumPy  
+- scikit-learn  
+- XGBoost  
+- Streamlit  
+- Matplotlib, Seaborn  
+- Joblib  
+
+---
+
+## 📊 Features
+
+- 🚘 Predict resale price instantly  
+- 🧹 Cleaned & preprocessed dataset  
+- 🔄 Fully automated ML pipeline  
+- 📉 Handles numerical & categorical features  
+- 🌐 Clean and responsive UI  
+- ⚡ Fast and real-time predictions  
+
+---
+
+## 📈 Model Performance
+
+- 🏆 Best results achieved using:
+  - Random Forest Regressor  
+  - XGBoost Regressor  
+
+- 📌 Key influencing features:
+  - Car Brand  
+  - Year / Age  
+  - Kilometers Driven  
+  - Engine Capacity  
+  - Power  
+
+---
+
+## ⚠️ Known Limitations
+
+- Predictions may vary for:
+  - Rare car models (low data availability)  
+  - Outlier cases  
+
+- UI may include categories not present after preprocessing (can be improved)
+
+---
+
+## 🚀 Deployment Details
+
+- Hosted on Streamlit Cloud  
+- Model saved using `joblib`  
+- Integrated pipeline ensures:
+  - No manual preprocessing required  
+  - Consistent predictions  
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── app.py                      # Streamlit UI
+├── car_price_pipeline.joblib   # Trained ML pipeline
+├── cleaned_data.csv            # Dataset
+├── requirements.txt            # Dependencies
+├── runtime.txt                 # Python version (optional)
+└── README.md
+
+## 🔮 Future Enhancements
+
+- 🚀 Improve model accuracy with advanced feature engineering  
+- 🧠 Add deep learning models  
+- 🎯 Dynamic UI (Brand → Model filtering)  
+- 📊 Add confidence intervals for predictions  
+- 🌍 Deploy on scalable cloud platforms (AWS / GCP / Azure)  
+
+---
+
+## 👨‍💻 Author
+
+**Siddiqui Usman Ahmed Siraj Ahmed**
+
+📧 siddiquiusman915256@gmail.com  
+
+🔗 https://www.linkedin.com/in/usman-siddiqui-948006347  
