@@ -2,8 +2,5 @@ streamlit==1.55.0
 pandas
 numpy
 scikit-learn==1.6.1
-matplotlib
-seaborn
 joblib
-xgboost
 category_encoders
