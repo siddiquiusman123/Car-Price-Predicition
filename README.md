@@ -6,8 +6,7 @@
 
 ## 🚀 Live Demo
 
-👉 Try the app here:  
-🔗 https://car-price-predicition-spmjq8bptwqufza7xfy2wc.streamlit.app/
+👉[Car Price Prediction App](https://car-price-predicition-spmjq8bptwqufza7xfy2wc.streamlit.app/) 
 
 ---
 
